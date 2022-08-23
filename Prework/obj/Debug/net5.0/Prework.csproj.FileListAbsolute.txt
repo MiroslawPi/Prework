@@ -1,0 +1,16 @@
+C:\D\c#\repos\Prework\Prework\bin\Debug\net5.0\Prework.exe
+C:\D\c#\repos\Prework\Prework\bin\Debug\net5.0\Prework.deps.json
+C:\D\c#\repos\Prework\Prework\bin\Debug\net5.0\Prework.runtimeconfig.json
+C:\D\c#\repos\Prework\Prework\bin\Debug\net5.0\Prework.runtimeconfig.dev.json
+C:\D\c#\repos\Prework\Prework\bin\Debug\net5.0\Prework.dll
+C:\D\c#\repos\Prework\Prework\bin\Debug\net5.0\Prework.pdb
+C:\D\c#\repos\Prework\Prework\obj\Debug\net5.0\Prework.csproj.AssemblyReference.cache
+C:\D\c#\repos\Prework\Prework\obj\Debug\net5.0\Prework.GeneratedMSBuildEditorConfig.editorconfig
+C:\D\c#\repos\Prework\Prework\obj\Debug\net5.0\Prework.AssemblyInfoInputs.cache
+C:\D\c#\repos\Prework\Prework\obj\Debug\net5.0\Prework.AssemblyInfo.cs
+C:\D\c#\repos\Prework\Prework\obj\Debug\net5.0\Prework.csproj.CoreCompileInputs.cache
+C:\D\c#\repos\Prework\Prework\obj\Debug\net5.0\Prework.dll
+C:\D\c#\repos\Prework\Prework\obj\Debug\net5.0\refint\Prework.dll
+C:\D\c#\repos\Prework\Prework\obj\Debug\net5.0\Prework.pdb
+C:\D\c#\repos\Prework\Prework\obj\Debug\net5.0\Prework.genruntimeconfig.cache
+C:\D\c#\repos\Prework\Prework\obj\Debug\net5.0\ref\Prework.dll

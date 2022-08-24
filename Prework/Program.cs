@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Security.Cryptography;
 
 namespace Prework
 {
@@ -9,20 +10,45 @@ namespace Prework
         {
             var name = "miro";
             Console.WriteLine("Hello " + name + "!");
+            Console.WriteLine($"Hi {name} !" );
+            Console.WriteLine($"Hi {name.ToUpper()} !");
 
+            var names = new[] { "Anna", "Miro", "Zenon" };
+            foreach (var item in names)
+            {
+                Console.WriteLine($"hello {item.ToLower()} ! ");
+            }
+
+            string firstFriend = "Miro";
+            Console.WriteLine($"The name {firstFriend} has {firstFriend.Length} letters. ");
+
+            string greetings = "    Hello   ";
+            Console.WriteLine($"[{greetings}]");
+            Console.WriteLine($"[{greetings.TrimStart()}]");
+            Console.WriteLine($"[{greetings.TrimEnd()}]");
+            Console.WriteLine($"[{greetings.Trim()}]");
+
+            string sayHello = "Hello World!";
+            Console.WriteLine(sayHello);
+            sayHello = sayHello.Replace("Hello", "Hi");
+            Console.WriteLine(sayHello);
+
+            Console.WriteLine($"string \"{sayHello}\" contains Hi: " + sayHello.Contains("Hi"));
+            Console.WriteLine($"string \"{sayHello}\" starts with Hi: " + sayHello.StartsWith("Hi"));
+            Console.WriteLine($"string \"{sayHello}\" ends with bye: " + sayHello.EndsWith("bye"));
             
-            Loops(); //Use loops to repeat operations
+            //Loops(); //Use loops to repeat operations
             
-            NestedLoops(); //nested loops
+            //NestedLoops(); //nested loops
 
-            Remainder(); //modulo
+            //Remainder(); //modulo
 
-            ListByForeach(); //
+            //ListByForeach(); //
 
-            SearchList("miro");
-            SearchList("jan");
-            SortList();
-            FibonacciNumbers();
+            //SearchList("miro");
+            //SearchList("jan");
+            //SortList();
+            //FibonacciNumbers();
 
         }
 

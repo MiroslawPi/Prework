@@ -7,7 +7,8 @@ namespace Prework
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var name = "miro";
+            Console.WriteLine("Hello " + name + "!");
 
             
             Loops(); //Use loops to repeat operations

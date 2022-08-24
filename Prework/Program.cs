@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Net.NetworkInformation;
 using System.Security.Cryptography;
 
 namespace Prework
@@ -36,19 +37,65 @@ namespace Prework
             Console.WriteLine($"string \"{sayHello}\" contains Hi: " + sayHello.Contains("Hi"));
             Console.WriteLine($"string \"{sayHello}\" starts with Hi: " + sayHello.StartsWith("Hi"));
             Console.WriteLine($"string \"{sayHello}\" ends with bye: " + sayHello.EndsWith("bye"));
-            
-            //Loops(); //Use loops to repeat operations
-            
-            //NestedLoops(); //nested loops
 
-            //Remainder(); //modulo
+            int a = 8;
+            int b = 2;
+            int sum = a + b;
+            Console.WriteLine(sum);
+            int substraction = a - b;
+            Console.WriteLine(substraction);
+            int multiplication = a * b;
+            Console.WriteLine(multiplication);
+            int division = a / b;
+            Console.WriteLine(division);
 
-            //ListByForeach(); //
+            Console.WriteLine($" the range of integers is from {int.MinValue} to {int.MaxValue}");
 
-            //SearchList("miro");
-            //SearchList("jan");
-            //SortList();
-            //FibonacciNumbers();
+            Console.WriteLine($" remainder (modulo) 3%2 is: {3 % 2}");
+
+            Console.WriteLine($" the range of double is from {double.MinValue} to {double.MaxValue}");
+
+            double third = 1.0 / 3.0;
+            Console.WriteLine(third);
+
+            //decimal type has a smaller range but greater precision than double
+
+            Console.WriteLine($" the range of decimal is from {decimal.MinValue} to {decimal.MaxValue}");
+            decimal c = 1.0M; //M for decimal
+            decimal d = 3.0M;
+            Console.WriteLine(c / d);
+
+            Radius(2.5);
+
+            int x = 10;
+            int y = 11;
+            if(x + y > 20 && x != b)
+            {
+                Console.WriteLine($"sum of {x} and {y} is greater than 20");
+                Console.WriteLine($"{x} is not equal {y}");
+            }
+            else
+            {
+                Console.WriteLine($"sum of {x} and {y} is not greater than 20");
+            }
+
+            if (x + y < 20 || x != b)
+            {
+                Console.WriteLine($"sum of {x} and {y} is smaller than 20 or {x} is not equal {y}");
+            }
+
+            Loops(); //Use loops to repeat operations
+
+            NestedLoops(); //nested loops
+
+            Remainder(); //modulo
+
+            ListByForeach(); //
+
+            SearchList("miro");
+            SearchList("jan");
+            SortList();
+            FibonacciNumbers();
 
         }
 
@@ -166,6 +213,12 @@ namespace Prework
                 Console.WriteLine(number);
             }
 
+        }
+
+        private static void Radius(double radius)
+        {
+            double area = Math.PI * radius * radius;
+            Console.WriteLine(area);
         }
     }
 }
